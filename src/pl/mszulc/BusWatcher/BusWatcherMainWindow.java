@@ -49,7 +49,6 @@ public class BusWatcherMainWindow {
             @Override
             public void run() {
                 System.out.println(Thread.currentThread());
-
                 toggleVisibility();
             }
         });
@@ -58,15 +57,51 @@ public class BusWatcherMainWindow {
 
     private void startBusWatcher() {
         Calendar nextBusTime = fetchNextBus();
-        int delay = 3000; //milliseconds
+        MPKTimetable timeTable = new MPKTimetable();
+        setTrayMessageTimer(nextBusTime);
+
+        /* if (nextBusTime - Calendar.getInstance())
+        displayTrayMessage(nextBusTime);
+    else
+        setTrayMessageTimer(nextBusTime);*/
+
+    }
+
+    private void setTrayMessageTimer(Calendar nextBusTime) {
+        int delay = 10000; //milliseconds
+        //int delayBeforeNextPopup = nextBusTime - Calendar.getInstance();
+
         ActionListener taskPerformer = new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
+
                 System.out.println(Thread.currentThread());
                 System.out.println("Jest tu!");
                 toggleVisibility();
             }
         };
         new Timer(delay, taskPerformer).start();
+
+        //1. Popup ma byc widoczny 5 minut przed odjazdem busa
+        //2. Jeśli dwa busy jadą jeden po drugim
+
+        /////////////////////////////////////////////////////////////
+        //3. Na początku zrobie Timer, który co minute będzie sprawdzał nowe busy (moge to cacheowac)
+        // i wyswietlal
+        // na liscie wszystkie, ktore sie kwalifikuja do wyswietlenia
+        // 4. Jeśli nie ma żadnych busów za 5 minut - popup się nie wyświetla
+        // 5. Skasowanie popupa powoduje, że następnym razem pojawi się po dwukliku lub 5 minut przed
+        // kolejnym busem, ale nie prędzej niż po 5-10 minutach od zamknięcia
+        //
+        /////////////////////////////////////////////////////////////
+
+
+        //no i chyba tutaj drugi timer, ktory pobierze kolejne dane?
+
+
+    }
+
+    private void displayTrayMessage(Calendar nextBusTime) {
+
     }
 
     private Calendar fetchNextBus() {

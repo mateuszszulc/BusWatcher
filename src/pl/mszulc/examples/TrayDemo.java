@@ -80,6 +80,16 @@ public class TrayDemo {
             public void actionPerformed(ActionEvent e) {
                 //JOptionPane.showMessageDialog(null,
                 //        "This dialog box is run from System Tray");
+                System.out.println(e.paramString());
+                System.out.println(e.getWhen());
+                System.out.println(e.getActionCommand());
+                System.out.println(e.getSource());
+                System.out.println(e.getID());
+                System.out.println(e.getClass());
+                System.out.println(e.toString());
+
+
+                System.out.println("EVENT FIRED FROM TRAYICON");
                 show();
             }
         });
@@ -117,6 +127,7 @@ public class TrayDemo {
             public void actionPerformed(ActionEvent e) {
                 MenuItem item = (MenuItem) e.getSource();
                 //TrayIcon.MessageType type = null;
+                System.out.println("EVENT FIRED!");
                 System.out.println(item.getLabel());
                 if ("Error".equals(item.getLabel())) {
                     //type = TrayIcon.MessageType.ERROR;
