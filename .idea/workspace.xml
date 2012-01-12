@@ -14,28 +14,8 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/ConfigurationFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/Timetable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/CitizensCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java" />
-      <change type="DELETED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusStation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\MPKTimetable.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusRoute.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusTimetableTest.java" afterPath="$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusWatcherMain.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainApp.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusWatcherMainWindow.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\MPKTimetableTest.java" afterPath="$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusRouteManagerTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\FileWriterTest.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\Main.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\TrayDemo.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/TrayDemo.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\WindowGCDemo1.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/WindowGCDemo1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusWatcher.iml" afterPath="$PROJECT_DIR$/BusWatcher.iml" />
     </list>
     <ignored path="BusWatcher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,7 +118,7 @@
       <file leaf-file-name="BusWatcherMainWindow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="0.33173078">
+            <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02647975">
               <folding />
             </state>
           </provider>
@@ -224,6 +204,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,9 +301,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,9 +320,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLanguage" value="Java" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -476,19 +456,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -504,11 +471,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
       </method>
@@ -522,6 +493,15 @@
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="sysFilter" value=".*" />
       <setting name="exampleFilter" value=".*" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -653,7 +633,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1225" height="816" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -663,18 +643,18 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.670571" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.670571" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2512909" sideWeight="0.6710335" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2512909" sideWeight="0.6710335" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26783115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -818,35 +798,29 @@
         <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="0.33173078">
+        <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02647975">
           <folding />
         </state>
       </provider>
