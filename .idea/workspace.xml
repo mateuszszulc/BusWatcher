@@ -15,24 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/ConfigurationFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/Timetable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/CitizensCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java" />
-      <change type="DELETED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusStation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\MPKTimetable.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusRoute.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusTimetableTest.java" afterPath="$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusWatcherMain.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainApp.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\BusWatcherMainWindow.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\BusWatcher\MPKTimetableTest.java" afterPath="$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusRouteManagerTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\FileWriterTest.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\Main.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\TrayDemo.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/TrayDemo.java" />
-      <change type="MOVED" beforePath="C:\Users\mateusz\Desktop\BusWatcher\src\pl\mszulc\examples\WindowGCDemo1.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/WindowGCDemo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ProjectLibraries.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ProjectLibraries.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusWatcher.iml" afterPath="$PROJECT_DIR$/BusWatcher.iml" />
@@ -53,7 +36,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -99,24 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModalityDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BusRoute.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,29 +90,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusRouteManager.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BusRouteManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusWatcherMainWindow.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="0.33173078">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileWriterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="46" column="26" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.49056605">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,6 +144,12 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1921" />
+    <option name="y" value="1" />
+    <option name="width" value="1755" />
+    <option name="height" value="1078" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -224,6 +178,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,33 +187,15 @@
               <option name="myItemId" value="BusWatcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BusWatcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BusWatcher" />
@@ -275,59 +213,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mszulc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mszulc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="recentsLimit" value="5" />
@@ -340,9 +238,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLanguage" value="Java" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -358,7 +256,7 @@
       <recent name="pl.mszulc.BusWatcher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ModalityDemo">
+  <component name="RunManager" selected="Application.BusWatcherMainApp">
     <configuration default="false" name="BusTimetableTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -489,47 +387,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="sysFilter" value=".*" />
-      <setting name="exampleFilter" value=".*" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -597,21 +454,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BusTimetableTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
@@ -652,32 +494,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1225" height="816" extended-state="6" />
+    <frame x="1921" y="1" width="1755" height="1078" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.670571" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.670571" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2512909" sideWeight="0.6710335" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17716303" sideWeight="0.67164177" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26783115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2016" y="96" width="1565" height="888" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.670571" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -703,6 +551,12 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -763,16 +617,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.46363637" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusRouteManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/Timetable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="53" selection-start="188" selection-end="270" vertical-scroll-proportion="0.28333333" />
@@ -781,16 +625,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/CitizensCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="59" selection-start="876" selection-end="876" vertical-scroll-proportion="0.6031746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wiki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="23" selection-start="12610" selection-end="12619" vertical-scroll-proportion="0.29969418" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_21/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="0" selection-start="11945" selection-end="11945" vertical-scroll-proportion="0.0349345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherService.java">
@@ -813,41 +647,63 @@
         <state line="28" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.9558824" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" />
+        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.028192371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="46" selection-start="925" selection-end="925" vertical-scroll-proportion="0.986733" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.74626863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.0">
+        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.028192371" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.6.1.jar!/org/jsoup/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="29" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.34775087" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/sources/jsoup-1.6.1-sources.jar!/org/jsoup/helper/HttpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="490" selection-end="490" vertical-scroll-proportion="0.15144767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/sources/jsoup-1.6.1-sources.jar!/org/jsoup/Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="23" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.35126236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusRouteManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="235" selection-end="235" vertical-scroll-proportion="0.20526893">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="8" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="0.33173078">
-          <folding />
+        <state line="46" column="26" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.49056605">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,7 +724,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -909,6 +765,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -928,6 +785,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>ProjectLibraries</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
