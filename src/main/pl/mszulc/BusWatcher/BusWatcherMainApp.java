@@ -7,7 +7,7 @@ package pl.mszulc.BusWatcher;
  * Time: 21:11
  */
 
-public class BusWatcherMain {
+public class BusWatcherMainApp {
 
     public static void main(String[] args) {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {

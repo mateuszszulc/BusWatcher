@@ -10,7 +10,7 @@ import org.junit.Test;
  * Date: 07.01.12
  * Time: 23:36
  */
-public class MPKTimetableTest {
+public class BusRouteManagerTest {
     @Before
     public void setUp() throws Exception {
 
@@ -23,6 +23,6 @@ public class MPKTimetableTest {
 
     @Test
     public void testGetBusTimetable() throws Exception {
-        MPKTimetable.getBusTimetable(1);
+        BusRouteManager.getBusRouteInformation(1);
     }
 }

@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.net.URL;
-import java.util.Calendar;
-import java.util.TimerTask;
+import java.util.*;
+import java.util.List;
 
 /**
  * Created by IntelliJ IDEA.
@@ -15,6 +15,8 @@ import java.util.TimerTask;
  */
 public class BusWatcherMainWindow {
     private JFrame mainFrame;
+    private BusWatcherService busWatcherService;
+    private ConfigurationFrame configurationFrame;
 
     public BusWatcherMainWindow() {
         setupMainFrame();
@@ -22,29 +24,28 @@ public class BusWatcherMainWindow {
 
     private void setupMainFrame() {
         mainFrame = new JFrame("BusWatcher");
-
-        //mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //mainFrame.setExtendedState(JFrame.ICONIFIED);
-        //mainFrame.setExtendedState(mainFrame.getExtendedState() | JFrame.ICONIFIED);
+        configurationFrame = new ConfigurationFrame();
 
         setupWindowFocusListener();
         setupWindowStateListener();
         setupTrayIcon();
 
+
         mainFrame.setSize(200, 100);
         mainFrame.setVisible(true);
 
-        startBusWatcher();
+        //startBusWatcher();
         System.out.println(Thread.currentThread());
 
 
         java.util.Timer timer = new java.util.Timer();
-        timer.schedule(new TimerTask() {
-            public void run() {
-                System.out.println(Thread.currentThread());
-                toggleVisibility();
-            }
-        }, 3000, 7000);
+//        timer.schedule(new TimerTask() {
+//            public void run() {
+//                System.out.println(Thread.currentThread());
+//                toggleVisibility();
+//            }
+//        }, 3000, 7000);
+//
         Thread t = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -52,12 +53,15 @@ public class BusWatcherMainWindow {
                 toggleVisibility();
             }
         });
-        t.start();
+        //t.start();
     }
 
     private void startBusWatcher() {
+        busWatcherService = new BusWatcherService(this);
+        busWatcherService.start();
+
         Calendar nextBusTime = fetchNextBus();
-        MPKTimetable timeTable = new MPKTimetable();
+        BusRouteManager timeTable = new BusRouteManager();
         setTrayMessageTimer(nextBusTime);
 
         /* if (nextBusTime - Calendar.getInstance())
@@ -68,20 +72,6 @@ public class BusWatcherMainWindow {
     }
 
     private void setTrayMessageTimer(Calendar nextBusTime) {
-        int delay = 10000; //milliseconds
-        //int delayBeforeNextPopup = nextBusTime - Calendar.getInstance();
-
-        ActionListener taskPerformer = new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-
-                System.out.println(Thread.currentThread());
-                System.out.println("Jest tu!");
-                toggleVisibility();
-            }
-        };
-        new Timer(delay, taskPerformer).start();
-
-        //1. Popup ma byc widoczny 5 minut przed odjazdem busa
         //2. Jeśli dwa busy jadą jeden po drugim
 
         /////////////////////////////////////////////////////////////
@@ -94,10 +84,7 @@ public class BusWatcherMainWindow {
         //
         /////////////////////////////////////////////////////////////
 
-
         //no i chyba tutaj drugi timer, ktory pobierze kolejne dane?
-
-
     }
 
     private void displayTrayMessage(Calendar nextBusTime) {
@@ -117,7 +104,9 @@ public class BusWatcherMainWindow {
                 new TrayIcon(createImage("kadu.gif", "tray icon"));
         final SystemTray tray = SystemTray.getSystemTray();
 
+        MenuItem setupItem = new MenuItem("Setup");
         MenuItem exitItem = new MenuItem("Exit");
+
 
         exitItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -125,7 +114,22 @@ public class BusWatcherMainWindow {
                 System.exit(0);
             }
         });
+
+        setupItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Tu jestem");
+
+                configurationFrame.show();
+
+                System.out.println(configurationFrame.delegateTextField());
+                System.out.println("Tu jestem");
+
+            }
+        });
+
         popup.add(exitItem);
+        popup.add(setupItem);
 
         trayIcon.setPopupMenu(popup);
 
@@ -153,8 +157,8 @@ public class BusWatcherMainWindow {
     }
 
     protected static Image createImage(String path, String description) {
-        URL imageURL = BusWatcherMain.class.getResource(path);
-        System.out.println(BusWatcherMain.class.getResource(path));
+        URL imageURL = BusWatcherMainApp.class.getResource(path);
+        System.out.println(BusWatcherMainApp.class.getResource(path));
 
         if (imageURL == null) {
             System.err.println("Resource not found: " + path);
@@ -205,4 +209,17 @@ public class BusWatcherMainWindow {
     }
 
 
+    public List<Integer> getRouteNumbers() {
+        List<Integer> fixme = new ArrayList<Integer>();
+        fixme.add(109);
+        fixme.add(107);
+        return fixme;
+    }
+
+    public void displayInfo(List<Calendar> nextBuses) {
+    }
 }
+
+//mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//mainFrame.setExtendedState(JFrame.ICONIFIED);
+//mainFrame.setExtendedState(mainFrame.getExtendedState() | JFrame.ICONIFIED);
