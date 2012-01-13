@@ -33,7 +33,7 @@ public class BusRoute {
 
     private String getTimetableFilename(String busStationName, List<BusStation> busStationsList) {
 
-        return null;  //To change body of created methods use File | Settings | File Templates.
+        return null;
     }
 
     private boolean isPrimaryDirection(String busStationName, String busStationDestName) {
