@@ -14,15 +14,17 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/guava-11.0.1-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/guava-11.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/guava-11.0.1-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/examples/PreferenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\Guava-Examples.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\main\java\dummy.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\BaseTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\CollectionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\ConcurrencyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\IoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\NetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\NewStuffInR08Test.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusWatcher.iml" afterPath="$PROJECT_DIR$/BusWatcher.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java" afterPath="$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java" />
     </list>
     <ignored path="BusWatcher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,9 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusWatcherMainWindow.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
+      <file leaf-file-name="IoTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02603369">
+            <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.13016845">
               <folding />
             </state>
           </provider>
@@ -143,10 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/BusRoute.java" />
-        <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/BusStation.java" />
-        <option value="$PROJECT_DIR$/Wiki.html" />
-        <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/BusWatcherMainWindow.java" />
         <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/BusWatcherService.java" />
         <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/MPKTimetable.java" />
         <option value="$PROJECT_DIR$/src/pl/mszulc/BusWatcher/CitizensCounter.java" />
@@ -159,6 +155,10 @@
         <option value="$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java" />
         <option value="$PROJECT_DIR$/src/main/pl/mszulc/examples/Pref.java" />
         <option value="$PROJECT_DIR$/src/main/pl/mszulc/examples/PreferenceTest.java" />
+        <option value="$PROJECT_DIR$/Guava-Examples/src/test/com/tfnico/examples/guava/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/guava/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/guava/BaseTest.java" />
+        <option value="$PROJECT_DIR$/Guava-Examples/src/test/com/tfnico/examples/guava/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -236,6 +236,24 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusWatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusWatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -247,7 +265,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="recentsLimit" value="5" />
@@ -260,9 +278,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLanguage" value="Java" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -278,96 +296,7 @@
       <recent name="pl.mszulc.BusWatcher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PreferenceTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="pl.mszulc.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pl.mszulc.examples.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BusWatcher" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CitizensCounter" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="pl.mszulc.BusWatcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pl.mszulc.examples.CitizensCounter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BusWatcher" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="14248" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BusWatcherMainApp" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="pl.mszulc.BusWatcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pl.mszulc.BusWatcher.BusWatcherMainApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BusWatcher" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ModalityDemo" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <option name="MAIN_CLASS_NAME" value="ModalityDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BusWatcher" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IoTest">
     <configuration default="false" name="PreferenceTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" value="pl.mszulc.examples.PreferenceTest" />
@@ -381,6 +310,98 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="BusWatcher" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="Guava-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tfnico.examples.guava" />
+      <option name="MAIN_CLASS_NAME" value="pl.mszulc.BusWatcher.guava.CollectionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NetTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="Guava-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tfnico.examples.guava" />
+      <option name="MAIN_CLASS_NAME" value="pl.mszulc.BusWatcher.guava.NetTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConcurrencyTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="Guava-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tfnico.examples.guava" />
+      <option name="MAIN_CLASS_NAME" value="pl.mszulc.BusWatcher.guava.ConcurrencyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IoTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="BusWatcher" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tfnico.examples.guava" />
+      <option name="MAIN_CLASS_NAME" value="com.tfnico.examples.guava.IoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -466,11 +487,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CitizensCounter" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BusWatcherMainApp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ModalityDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PreferenceTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PreferenceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NetTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConcurrencyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IoTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -512,8 +533,8 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -539,7 +560,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -568,7 +589,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Guava-Examples" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -584,6 +605,8 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Working fetching BusStationList for one direction." />
     <MESSAGE value="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable." />
+    <MESSAGE value="Added Libraries + PreferenceTest." />
+    <MESSAGE value="Added Guava-Examples" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -627,26 +650,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusRouteManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/Timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="188" selection-end="270" vertical-scroll-proportion="0.28333333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/CitizensCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="59" selection-start="876" selection-end="876" vertical-scroll-proportion="0.6031746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.44323143" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.6785714" />
@@ -664,30 +667,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7735849">
-          <folding />
-        </state>
+        <state line="41" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7735849" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/ModalityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.018867925">
-          <folding />
-        </state>
+        <state line="253" column="29" selection-start="9107" selection-end="9107" vertical-scroll-proportion="0.018867925" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/PreferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="941" selection-end="941" vertical-scroll-proportion="0.72894335">
-          <folding />
-        </state>
+        <state line="28" column="10" selection-start="941" selection-end="941" vertical-scroll-proportion="0.72894335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/examples/FileWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.10413476">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.10413476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRoute.java">
@@ -700,9 +695,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02603369">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,9 +711,9 @@
         <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02603369">
+        <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.13016845">
           <folding />
         </state>
       </provider>
@@ -735,7 +735,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -771,7 +771,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BusWatcher</last-edited>
+          <last-edited>Guava-Examples</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -795,6 +795,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>ProjectLibraries</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
