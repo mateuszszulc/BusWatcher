@@ -4,8 +4,14 @@
       <root url="file://$PROJECT_DIR$/lib" />
       <root url="file://$PROJECT_DIR$/lib" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/doc/guava-11.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/doc/jsoup-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/sources/guava-11.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sources/jsoup-1.6.1-sources.jar!/" />
+    </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
   </library>
 </component>

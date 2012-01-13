@@ -15,15 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0476b9-b0d8-44bc-94c6-f6dcdbcc0502" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\Guava-Examples.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\main\java\dummy.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\CollectionTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\ConcurrencyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\IoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\NetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\WRO00305\Desktop\BusWatcher\Guava-Examples\src\test\com\tfnico\examples\guava\NewStuffInR08Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ProjectLibraries.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ProjectLibraries.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BusWatcher.iws" />
@@ -105,19 +97,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusRouteManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
+      <file leaf-file-name="BaseTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+            <state line="5" column="48" selection-start="208" selection-end="208" vertical-scroll-proportion="0.13016845">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.13016845">
+            <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,24 +228,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusWatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -263,7 +237,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -589,7 +563,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Guava-Examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved Guava-Examples to BusWatcher module." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -607,6 +581,7 @@
     <MESSAGE value="Cannot write much about this commit. This is a version with ConfigurationManager - this should be merge'd with MainFrame and then deleted.&#10;&#10;Architecture, design and naming should be much stable." />
     <MESSAGE value="Added Libraries + PreferenceTest." />
     <MESSAGE value="Added Guava-Examples" />
+    <MESSAGE value="Moved Guava-Examples to BusWatcher module." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -692,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusWatcherMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="82" selection-start="566" selection-end="566" vertical-scroll-proportion="0.02603369">
@@ -706,14 +674,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.13016845">
+        <state line="20" column="13" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/pl/mszulc/BusWatcher/BusRouteManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.02603369">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/pl/mszulc/BusWatcher/BusTimetableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="7" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/sources/guava-11.0.1-sources.jar!/com/google/common/util/concurrent/ListenableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="17" selection-start="3519" selection-end="3519" vertical-scroll-proportion="-0.24961714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/tfnico/examples/guava/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="208" selection-end="208" vertical-scroll-proportion="0.13016845">
           <folding />
         </state>
       </provider>
@@ -771,7 +762,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Guava-Examples</last-edited>
+          <last-edited>BusWatcher</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
